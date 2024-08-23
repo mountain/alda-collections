@@ -24,33 +24,35 @@
 # 想起我的阿哥……在深山，
 # 月亮出来亮汪汪亮汪汪
 
-(tempo 120)
+
+(tempo 112) # 略微降低速度以增强歌曲的悠长感
 
 piano:
+    (volume 70) # 柔和的开头，营造夜晚的宁静感
     e16 g16 a16 b16 > c16 d16 e4 e2 e16 g16 a16 b16 a4 a2 a8 g16 e16 b8 a8 a2
+
+    (volume 80) # 略微增加音量
+    a16 g16 e16 d16 e4 e2 < a16 > c16 d16 e16 d4. c16 < a16 > e8 d4 c8 < a8 g8 e8 d8 < a2
+
+    (volume 90) # 再次增加音量，表达思念情感的升华
     a16 g16 e16 d16 e4 e2 < a16 > c16 d16 e16 d4. c16 < a16 > e8 d4 c8 < a8 g8 e8 d8 < a2
 
 oboe:
     r1 r1 r1 r1 r1 r1 r1
 
-    (volume 100)
+    (volume 70) # 轻柔的开始，体现出对山中阿哥的呼唤
     a1 a8 > c8 d8 e8 e8 d4 c16 < a16 > e8 d4. d32 c32 < a1
+
+    (volume 80) # 稍微增加音量，表达情感的增强
     a8 > c8 < a8 g8 e8 d8 g8 a4. a8 g8 e8 d8 < a1
+
+    (volume 90) # 增加音量，进一步表现情感高潮
     > a8 > d8 d8 < a8 > e8 d4 c16 < a16 > e8 d8 d4 d32 c32 < a4 > e8 d4 c16 < a16 > e8 d4. d32 c32 < a1
     a8 > c8 < a8 g8 e8 d8 g8 a4. a8 g8 e8 d8 < a1
 
+    (volume 80) # 回归稍柔和的音量，准备结束
     > a8 > c8 d8 e8 e8 d4 c16 < a16 > e8 d4. d32 c32 < a1
     a8 > c8 < a8 g8 e8 d8 g8 a4. a8 g8 e8 d8 < a1
-    > a8 > d8 d8 < a8 > e8 d4 c16 < a16 > e8 d8 d4 d32 c32 < a4 > e8 d4 c16 < a16 > e8 d4. d32 c32 < a1
-    a8 > c8 < a8 g8 e8 d8 g8 a4. a8 g8 e8 d8 < a1
 
+    (volume 70) # 渐弱，结束部分
     > e2 e8 d8 d4 a1 a1
-
-
-
-
-
-
-
-
-
