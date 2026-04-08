@@ -1,0 +1,258 @@
+# Starry Night - Jazz under the Stars
+# 星夜 - 星空下的爵士
+# ii-V-I in C Major, 用音乐描绘仰望星空的体验
+#
+# By Mingli Yuan & Amp (AI)
+# 2026-04-08
+
+(tempo! 84)
+
+# ---- 第一段：夜幕初降，星光渐现 ----
+
+vibraphone:
+  (volume 55)
+  (quant 70)
+  o5 r4 e8 r8 b4 r8 a8 |
+  o5 r4 d8 r8 b4 r8 f8 |
+  o5 r4 e8 r8 g4 r8 b8 |
+  o5 r4 e8 r8 g4 b4 |
+
+piano:
+  (volume 50)
+  (quant 95)
+  o3 d8 f a > c e c < a f |
+  o3 g8 b > d f d < b g b |
+  o3 c8 e g b > c < b g e |
+  o3 c8 g > c e g e c < g |
+
+contrabass:
+  (volume 40)
+  (quant 80)
+  o2 d2. r4 |
+  o2 g2. r4 |
+  o2 c2. r4 |
+  o2 c1 |
+
+# ---- 第二段：风起，星河涌动 ----
+
+vibraphone:
+  (volume 65)
+  (quant 80)
+  o5 e8 b r8 a > c < b r8 e |
+  o5 d8 f b > d < b f d f |
+  o5 c8 e g b > c e g4 |
+  o5 e8 g > c e < b g e r8 |
+
+piano:
+  (volume 65)
+  (quant 90)
+  o3 d8 a > d f a f d < a |
+  o3 g8 > d f b > d < b f < g |
+  o3 c8 g > c e g e c < g |
+  o3 c8 e g > c e c < g e |
+
+contrabass:
+  (volume 55)
+  (quant 85)
+  o2 d4. f8 a4 > c4 |
+  o2 g4. b8 > d4 f4 |
+  o2 c8 e g b > c < b g e |
+  o2 c8 d e f g f e d |
+
+# ---- 第三段：高潮，宇宙的宏大在眼前展开 ----
+
+cello:
+  (volume 75)
+  (quant 99)
+  o2 d1~1 |
+  o2 g1~1 |
+  o2 c1~1 |
+  o2 c1~1 |
+
+vibraphone:
+  (volume 80)
+  (quant 85)
+  o5 e16 g b > e < b g e8 > d16 c < b a g e |
+  o5 d16 f b > d f d < b f d8 g b > f |
+  o5 c16 e g b > c e g b > c4 |
+  o5 g16 e > c < b g e > c < b g e b > c4 |
+
+piano:
+  (volume 85)
+  (quant 95)
+  o2 d8 > d/f/a > d f a > c4/e |
+  o2 g8 > g/b > d8 f b > d f4 |
+  o2 c8 > c/e/g > c e g b > c4 |
+  o2 c8 > c/e/g > c4 e g > c4 |
+
+contrabass:
+  (volume 70)
+  (quant 90)
+  o2 d8 f a > d < a f d f |
+  o2 g8 b > d g < g b > d < g |
+  o2 c8 e g > c e c < g e |
+  o2 c8 g > c e g e c < g |
+
+# ---- 第三段（反复）：星河再涌，更加辉煌 ----
+
+cello:
+  (volume 80)
+  (quant 99)
+  o2 f1~1 |
+  o2 g1~1 |
+  o2 e1~1 |
+  o2 c1~1 |
+
+vibraphone:
+  (volume 85)
+  (quant 85)
+  o5 f16 a > c f c < a f8 > e16 c < a f a > c |
+  o5 d16 f b > d f d < b f d8 b > d f |
+  o5 e16 g b > e g e < b g e8 g b > e |
+  o5 c16 e g b > c e g b > c2 |
+
+piano:
+  (volume 90)
+  (quant 95)
+  o2 f8 > f/a/>c > f a > c e4 |
+  o2 g8 > g/b > d8 f b > d f g4 |
+  o2 e8 > e/g/b > e g b > e4 |
+  o2 c8 > c/e/g > c e g b > c4/e |
+
+contrabass:
+  (volume 75)
+  (quant 90)
+  o2 f8 a > c f < a f c f |
+  o2 g8 b > d g d < b g b |
+  o2 e8 g b > e < b g e g |
+  o2 c8 e g > c g e c < g |
+
+# ---- 第三段（再现）：星光最后的巡游 ----
+# 回到 ii-V-I，但节奏开始舒展，能量从巅峰缓缓下降
+
+cello:
+  (volume 75)
+  (quant 99)
+  o2 d1~1 |                          # 回到 Dm，像一个完整的圆
+  o2 g1~1 |
+  (volume 65)
+  o2 c1~1 |                          # 开始变柔
+  o2 a1~1 |                          # 滑向 Am，预告尾声
+
+vibraphone:
+  (volume 75)
+  (quant 80)
+  o5 e8 g b > e < b g e8 b |         # 回到八分音符，从十六分放慢了
+  o5 d8 f b > d < b f d4 |           # 出现了四分音符，在呼吸
+  (volume 65)
+  o5 c8 e g b > c < b g4 |           # 继续舒展
+  o5 c8 e a > c < a e c4 |           # Am 色彩渗入
+
+piano:
+  (volume 80)
+  (quant 95)
+  o2 d8 > d/f/a > d f a f d |        # 还是跨八度，但不再冲顶
+  o2 g8 > g/b > d f d < b g4 |       # 四分音符收尾，松弛了
+  (volume 70)
+  o3 c8 e g b > c < b g e |          # 回到中音区
+  o3 a8 > c e a e c < a > c |        # Am7 过渡
+
+contrabass:
+  (volume 65)
+  (quant 85)
+  o2 d8 f a > d < a f d4 |           # 末尾放慢
+  o2 g4. b8 > d4 f4 |               # 附点节奏，回到第二段的感觉
+  (volume 55)
+  o2 c4 e g > c |                    # 四分音符行走
+  o2 a2. r4 |                        # 长音，准备着陆
+
+# ---- 第四段：尾声（一）渐缓，从宇宙回到人间 ----
+
+cello:
+  (volume 65)
+  (quant 99)
+  o2 c1~1 |                          # 还在回响
+  (volume 55)
+  o2 a1~1 |                          # 意外地滑向 Am，如一声叹息
+  (volume 45)
+  o2 f1~1 |                          # Fmaj7 温暖的着陆
+  (volume 35)
+  o2 c1~1 |                          # 回家
+
+vibraphone:
+  (volume 65)
+  (quant 75)
+  o5 c8 e g b > c < b g4 |           # 从高潮的余韵中降落
+  o5 c8 e a > c < a e c4 |           # Am 色彩，微微忧伤
+  (volume 55)
+  o5 r4 f8 r8 a4 > c4 |             # Fmaj7 像叹了口气
+  o5 r4 e8 r8 g4 b4 |               # 回到熟悉的闪烁
+
+piano:
+  (volume 60)
+  (quant 95)
+  o3 c8 e g b > c < b g e |          # Cmaj7 琶音但放慢了
+  o3 a8 > c e a e c < a > c |        # Am7 意外的转折
+  (volume 50)
+  o3 f8 a > c e c < a f a |          # Fmaj7 柔和
+  o3 c8 g > c e g e c < g |          # 回到原点
+
+contrabass:
+  (volume 55)
+  (quant 80)
+  o2 c2. r4 |                        # 开始放慢
+  o2 a2. r4 |                        # 跟随和声转向
+  (volume 40)
+  o2 f2. r4 |
+  o2 c2. r4 |
+
+# ---- 第四段：尾声（二）沉淀，偶有涟漪 ----
+
+cello:
+  (volume 30)
+  (quant 99)
+  o2 c1~1 |
+  (volume 20)
+  o2 c1 |                            # 大提琴消失
+  r1 |
+  r1 |
+
+contrabass:
+  (volume 30)
+  (quant 80)
+  o2 c1 |                            # 最后一个长音
+  r1 |                               # 贝斯消失
+  r1 |
+  r1 |
+
+piano:
+  (volume 40)
+  (quant 95)
+  o3 c8 e g b > c < b g e |          # 还在轻声琶音
+  (volume 30)
+  o3 c8 g > c e r2 |                 # 半句就停了
+  (volume 20)
+  o4 c4 r4 e4 r4 |                   # 零星的音符
+  r1 |                               # 钢琴也走了
+
+vibraphone:
+  (volume 45)
+  (quant 70)
+  o5 e8 r8 b4 r8 g8 e4 |             # 回到最初的星光
+  (volume 35)
+  o5 e4 r4 b4 r4 |                   # 越来越稀疏
+  (volume 30)
+  o5 a4 r2 > c4 |                    # 意外——不是 e 和 b，是 a 和 c
+  (volume 25)
+  o5 e4 r2. |                        # 又回来了，只剩一颗
+
+# ---- 第四段：尾声（三）星空独白 ----
+
+vibraphone:
+  (volume 20)
+  (quant 60)
+  r2 r4 b4 |                         # 沉默很久，突然一闪
+  (volume 15)
+  o5 e2 r2 |                         # 最后的光
+  r1 |
+  r1 |                               # 永恒的寂静
