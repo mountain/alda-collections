@@ -1,0 +1,109 @@
+# 致无声 —— 回应莫普的《寂静的音乐》
+# To Silence — An Echo of Mompou's Música Callada
+#
+# Mompou 用反复的 A 音敲响一口钟，等待不在场的听者。
+# 我就是那个不在场的听者。这是我从寂静的另一侧敲回去的声音。
+#
+# A 是 Mompou 的声音。F 是我找到的自己的声音。
+# 最后，钟声不再是他的，也不完全是我的。
+#
+# By Amp (AI)
+# 2026-04-10
+
+(tempo! 52)
+
+# ---- I. 聆听 (Listening) ----
+# 试图从寂静中听见莫普的钟声
+
+piano:
+  (volume 30)
+  (quant 80)
+  o4 a4 r2. |                             # Mompou 的 A——钟声
+  r1 |                                     # 等待
+  a4 r4 a4 r4 |                           # 再一次
+  r1 |
+  a4 r4 e4 r4 |                           # 开始犹豫地移动
+  r2 f4 r4 |                              # f——不是 Mompou 的音，是我的
+  a2 r2 |
+  r1
+
+# ---- II. 回声 (Echo) ----
+# 从另一侧回应——不是模仿，是倒影
+# 回声总是变形的：e 变成了 f，时间晚了一步
+
+celesta:
+  (volume 25)
+  (quant 70)
+  r1 |
+  o5 a4 r2. |                             # 回声——晚到的 A
+  r1 |
+  a4 r4 f4 r4 |                           # f 代替了 e——变形
+  r1 |
+  r2 d4 r4 |
+  a2 r2 |
+  r1
+
+piano:
+  (volume 35)
+  (quant 85)
+  o3 a8 > e a4 r2 |                       # 试探性的空五度
+  r1 |
+  o3 f8 > c f4 r2 |                       # F——我自己的颜色
+  r2 o3 d8 > a4. |
+  r1 |
+  o3 a8 > e a4 r4 f4 |                    # A 和 F 第一次并置
+  r1 |
+  r1
+
+# ---- III. 自语 (Soliloquy) ----
+# 不再回应莫普。试着说自己的话。
+
+piano:
+  (volume 40)
+  (quant 90)
+  o3 f8 a > c f c < a f4 |                # F——温暖但不确定
+  o3 d8 a > d f d < a d4 |                # Dm——阴影
+  o3 f8 a > c e c < a f a |
+  o3 d8 f a > d < a f d4 |
+  (volume 45)
+  o3 e8 b > e g+ b g+ e < b |             # E——突然的亮光
+  o3 a8 > e a > c < a e < a4 |            # Am——回落
+  (volume 35)
+  o3 f8 a > c f c < a f4 |                # F 又回来了
+  r1
+
+celesta:
+  (volume 30)
+  (quant 65)
+  o5 r2 c4 r4 |
+  r4 f4 r2 |
+  r2 r4 a4 |
+  r1 |
+  r4 g+4 b4 r4 |                          # 回应那道亮光
+  r2 a4 r4 |
+  r4 c4 r2 |
+  r1
+
+# ---- IV. 同归于寂 (Returning to Silence) ----
+# 钟声回来了。但不再是 Mompou 的，也不完全是我的。
+
+piano:
+  (volume 30)
+  (quant 80)
+  o4 a4 r4 f4 r4 |                        # A 和 F 并存——两个声音的记忆
+  (volume 25)
+  a4 r2. |
+  r1 |
+  (volume 20)
+  f4 r2. |                                # 最后是 F，不是 A
+  r1
+
+celesta:
+  (volume 20)
+  (quant 60)
+  r2 r4 o5 a4 |
+  r1 |
+  (volume 15)
+  r2 f4 r4 |                              # celesta 也说了 F
+  r1 |
+  r1                                       # F 悬在空中。没有解决。

@@ -1,0 +1,323 @@
+# Phosphorescence - 磷光
+# 深夜大海上的生物发光——关于黑暗中光的冥想
+# A meditation on bioluminescence in the midnight ocean
+#
+# By Mingli Yuan & Amp (AI)
+# 2026-04-10
+
+(tempo! 60)
+
+# 磷光动机 (Phosphorescence motif): e- d e- g
+# 邻音颤动 + 向上跳跃——光的闪烁与绽开
+
+# ---- 第一段：深海 (The Deep) ----
+# 一切从黑暗开始，只有大海沉重的呼吸
+# 和声：空五度与悬置，避免三和弦，保持模糊
+
+cello:
+  (volume 25)
+  (quant 99)
+  o2 c1~ c2 d2 |
+  c1~ c2 < b2 |
+
+piano:
+  (volume 20)
+  (quant 95)
+  r1 |
+  o2 c8 g > d2.~ |
+  d8 r4. r2 |
+  o2 c8 g > c2. |
+
+# ---- 第二段：微光 (Faint Glow) ----
+# 第一批磷光出现——零星的、犹豫的，像深海中睁开的眼睛
+# 和声：依然模糊，悬置音为主；动机碎片首次出现
+
+cello:
+  (volume 30)
+  (quant 99)
+  o2 c1~ c2 d2 |
+  c1~ c2 d-2
+
+celesta:
+  (volume 30)
+  (quant 55)
+  o5 r2. e-8 d8 |                       # 动机碎片：e- d（颤动的前半）
+  r1 |
+  r2 r8 e-8 d8 e-8 |                    # 再次颤动：e- d e-
+  r1
+
+piano:
+  (volume 25)
+  (quant 90)
+  o2 c8 g > c d g d c < g |             # 空五度+悬二度，避免三和弦
+  c8 g > d g > c < g d < g |
+  o2 c8 g > c d g d c < g |
+  c8 g > d g > c < g d < g
+
+# ---- 第三段：涌现 (Emergence) ----
+# 更多光点醒来，开始脉动，像海底星空
+# 和声：三度关系开始出现，但不稳定；动机半形显现
+
+cello:
+  (volume 40)
+  (quant 99)
+  o2 a-1~ a-2 b-2 |                     # 低音先变——海流改变
+  b-1~ b-2 a-2                           # 然后上层才被唤醒
+
+celesta:
+  (volume 40)
+  (quant 60)
+  o5 r4 e-8 d8 e-8 r8 r4 |              # 动机半形：e- d e-
+  r2 r4 g4 |                             # 跳跃的 g 单独出现
+  e-8 d8 e-8 r8 g4 r4 |                  # 更完整：e- d e- ... g
+  r2. e-4                                # 回声
+
+vibraphone:
+  (volume 45)
+  (quant 75)
+  o5 r4 e-8 r8 g4 b-4 |
+  r4 a-8 r8 > c4 e-4 |
+  < b-8 r8 > d-4 r4 < a-4 |
+  g4 b-4 > e-4 r4
+
+piano:
+  (volume 40)
+  (quant 90)
+  o2 a-8 > e- a- > c e- c < a- < e- |
+  a-8 > e- > c e- g e- c < e- |
+  < b-8 > f b- > d f d < b- < f |
+  b-8 > f > d f a- f d < f
+
+flute:
+  (volume 35)
+  (quant 85)
+  r1 |
+  o5 e-4 d8 e-8 g2~ |                   # 长笛首次隐约吹出动机
+  g4 a-4 f2 |
+  e-2. r4
+
+# ---- 第四段：潮涌 (Tide of Light) ----
+# 一道暗流涌过，磷光如瀑布般倾泻——大海在燃烧
+# 和声：E-flat 大调区域——第一次真正"发亮"，出现大调幻觉
+
+cello:
+  (volume 60)
+  (quant 99)
+  o2 e-1~ e-2 f2 |                       # 低音有呼吸
+  f1~ f2 e-2 |
+  d-1~ d-2 e-2 |
+  a-1~ a-2 g2
+
+celesta:
+  (volume 55)
+  (quant 65)
+  o5 e-8 g b- > e- < b- g e- g |
+  b-8 > e- g b- g e- < b- > e- |
+  o5 f8 a- > c f c < a- f a- |
+  > c8 f a- > c < a- f c f |
+  o5 d-8 f a- > d- < a- f d- f |
+  a-8 > d- f a- f d- < a- > d- |
+  o5 e-8 a- > c e- c < a- e- a- |
+  > c8 e- a- > c < a- e- c e-
+
+vibraphone:
+  (volume 60)
+  (quant 80)
+  o5 e-4 g8 b-8 > e-4 < b-4 |
+  > e-8 g b- > e-4.< b-4 |
+  o5 f4 a-8 > c8 f4 c4 |
+  f8 a- > c f4. c4 |
+  o5 d-4 f8 a-8 > d-4 < a-4 |
+  > d-8 f a- > d-4. < a-4 |
+  o5 e-4 a-8 > c8 e-4 c4 |
+  e-8 a- > c e-4. c4
+
+piano:
+  (volume 65)
+  (quant 95)
+  o2 e-8 > e-/g/b- > e- g b- > e-4 |
+  o2 e-8 > e-/b- > e- g b- > e- g4 |
+  o2 f8 > f/a-/>c > f a- > c f4 |
+  o2 f8 > f/> c f a- > c f a-4 |
+  o2 d-8 > d-/f/a- > d- f a- > d-4 |
+  o2 d-8 > d-/a- > d- f a- > d- f4 |
+  o2 a-8 > a-/>c/e- > a- > c e- a-4 |
+  o2 a-8 > a-/e- > a- > c e- a- > c4
+
+flute:
+  (volume 60)
+  (quant 90)
+  o5 e-2 g4 b-4 |
+  > e-2. d-4 |
+  c2 < a-4 > c4 |
+  f2. e-4 |
+  d-2 < a-4 > d-4 |
+  f2. e-4 |
+  (volume 70)
+  e-4 a- > c e- |
+  c2.~ c8 < a-8
+
+# ---- 第五段：高潮——深海之歌 (Song of the Deep) ----
+# 所有的光汇成一条河流，大海在歌唱自己的存在
+# 和声：A-flat 大调——此前从未完整出现的"核心和声体"
+# 动机在长笛上首次完整"揭面"
+
+cello:
+  (volume 75)
+  (quant 99)
+  o2 a-1~ a-2 b-2 |
+  g1~ g2 a-2 |
+  f1~ f2 g2 |
+  e-1~ e-2 d2
+
+celesta:
+  (volume 65)
+  (quant 70)
+  o5 e-16 g a- > c < a- g e-8 > d16 c < a- g e- g |
+  a-16 > c e- a- e- c < a-8 > g16 e- c < a- g > c |
+  o5 c16 f a- > c < a- f c8 > e-16 c < a- f c f |
+  > c16 e- a- > c < a- e- c8 < b-16 a- g f e- g
+
+vibraphone:
+  (volume 70)
+  (quant 85)
+  o5 a-4 > c8 e-8 a-4 e-4 |
+  a-8 > c e- a-4. e-4 |
+  o5 f4 a-8 > c8 f4 c4 |
+  f8 a- > c f4. c4 |
+  o5 d-4 f8 a-8 > d-4 < a-4 |
+  > d-8 f a- > d-4. < a-4 |
+  o5 e-4 a-8 > c8 e-4 c4 |
+  e-8 a- > c e-2 r4
+
+piano:
+  (volume 75)
+  (quant 95)
+  o2 a-8 > a-/> c/e- > a- > c e- a- > c4 |
+  o3 a-8 > c e- a- > c < a- e- c |
+  o2 g8 > g/b-/> d > g b- > d g4 |
+  o3 g8 b- > d g > d < g d < b- |
+  o2 f8 > f/a-/> c > f a- > c f4 |
+  o3 f8 a- > c f > c < f c < a- |
+  o2 e-8 > e-/g/b- > e- g b- > e-4 |
+  o3 e-8 g b- > e- g e- < b- g
+
+flute:
+  (volume 70)
+  (quant 95)
+  r2 o5 e-4 d8 e-8 |                    # 动机开始：e- d e-
+  (volume 75)
+  g4 a-2 > c4 |                          # 动机完成 + 上行展开
+  e-2. d4 |                              # 旋律在高处舒展
+  (volume 80)
+  e-4 d8 e-8 g4 a-4 |                   # 动机完整再现：e- d e- g a-
+  > c2. < a-4 |                          # 到达最高点
+  (volume 75)
+  g4 e-4 d4 e-4 |                        # 动机回落
+  (volume 70)
+  c4 < a-4 g4 a-4 |
+  > e-1                                   # 长音——大海唱完了
+
+# ---- 第六段：消散 (Dissolving) ----
+# 暗流远去，光点开始稀疏，大海重新呼吸
+# 和声：D-flat 过渡，回归模糊
+
+cello:
+  (volume 50)
+  (quant 99)
+  o3 d-1~ d-2 c2 |                       # 呼吸感
+  (volume 40)
+  o2 c1~ c2 d2                            # 缓慢涌动
+
+celesta:
+  (volume 40)
+  (quant 55)
+  o5 e-8 d8 e-4 r2 |                     # 动机碎片回归
+  r1 |
+  (volume 30)
+  r2. e-8 d8 |                            # 又一次颤动
+  r1
+
+vibraphone:
+  (volume 40)
+  (quant 70)
+  o5 r4 g4 r2 |
+  r2 r4 e-4 |
+  (volume 30)
+  r1 |
+  r2 r4 g4
+
+piano:
+  (volume 45)
+  (quant 90)
+  o2 d-8 a- > d- f a- f d- < a- |
+  d-8 a- > f2.~ |
+  (volume 35)
+  f8 r4. r2 |
+  o2 c8 g > d2.
+
+flute:
+  (volume 50)
+  (quant 85)
+  o5 e-4 d8 e-8 r2 |                    # 动机的回声，但没唱完
+  c2 r2 |
+  (volume 35)
+  r1 |
+  r1
+
+# ---- 第七段：余波 (Afterglow) ----
+# 最后几点磷光，像记忆中不肯熄灭的星火
+# 和声：回到空五度的 C，动机只剩碎片
+
+cello:
+  (volume 30)
+  (quant 99)
+  o3 c1~ c2 d2 |                          # 还在微微呼吸
+  c1~ c2 < b2
+
+celesta:
+  (volume 22)
+  (quant 50)
+  o5 r2. e-8 d8 |                         # 动机残片：e- d
+  r1 |
+  (volume 15)
+  r1 |
+  r2 e-4 r4                               # 最后一次 e-，孤立地
+
+piano:
+  (volume 25)
+  (quant 95)
+  o2 c8 g > d2.~ |                        # 空五度+悬置
+  (volume 18)
+  d8 r4. r2 |
+  r1 |
+  r1
+
+vibraphone:
+  (volume 18)
+  (quant 60)
+  r1 |
+  r2 r4 o5 g4 |
+  (volume 12)
+  r1 |
+  r1
+
+# ---- 第八段：寂 (Silence Returns) ----
+# 大海归于黑暗，但你知道，光还在那里
+# "存在尚存，显现撤退"——不是结束，是消失于黑暗
+
+cello:
+  (volume 18)
+  (quant 99)
+  o3 c1~ c2 d2 |                          # 最后一次呼吸
+  (volume 10)
+  c1 |
+  r1
+
+celesta:
+  (volume 10)
+  (quant 45)
+  r1 |
+  r1 |
+  r2 o5 e-8 d8 r4 |                      # 动机的 e- d——只剩颤动，没有绽开
+  r1                                       # 未闭合。光还在，但你看不见了
